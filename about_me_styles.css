@@ -11,22 +11,17 @@ body{
     color:rgb(177, 90, 9);
     outline:none;
     transform: scale(1.1);
-    padding: 1% 1.5% 1% 1.5%;
-    /* border-right: 1vw; */
     border-top: 0;
     border-bottom: 0;
     border-style: solid;
     border-color: rgb(175, 174, 174);
 }
 
-/* change to body */
 body .about_me_body{
     display:flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
-
-    /* height:1500px; */
     background-color: gray;
     text-align: center;
     padding-top: 6%;
@@ -37,15 +32,17 @@ body .about_me_body{
 
 .about_me_body #my_picture{
     margin-top: 5%;
-    padding: 10%;
-    background-color: gray;
+    /* padding: 10%; */
     align-self: center;
-    border-radius: 50%;
 }
 
+.about_me_body #picture{
+    border-radius: 50%;
+    height: 400px;
+}
 .about_me_body #my_about_name{
     margin-top: 3%;
     padding: 0 20% 0 20%;
     align-self: center;
-    font-size: 2vw;
+    font-size: 30px;
 }

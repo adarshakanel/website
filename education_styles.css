@@ -33,7 +33,7 @@ body .education_page{
 }       
 
 .education_page #university_logo{
-    padding: 5% 20% 2% 20%;
+    padding: 5% 20% 2% 22%;
     align-items: center;
 }
 
@@ -41,12 +41,10 @@ body .education_page{
     border-radius: 500%;
     width: 200px;
     height: 200px;
-
-    margin-top: 1%;
 }
 
 .education_page .university_description{
-    padding: 0% 10% 0% 10%;
+    padding: 0% 10% 0% 18%;
     display: flex;
     text-align: left;
     flex-direction: column;
