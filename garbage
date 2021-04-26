@@ -1,0 +1,36 @@
+
+.description_column .total{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* min-width: 400px; */
+    box-sizing: border-box;  
+}
+.description_column #course_image{
+    width: 150px;
+    height: 150px;
+    margin-top: 2%;
+    /* padding: 1%; */
+    border-radius: 50%;
+    /* justify-content:center;  */
+    /* flex-wrap: wrap; */
+}
+
+.description_column #course_title{
+    /* padding: 5% 5% 3% 5%;     */
+}
+
+.description_column #course_description{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    /* max-width: 25%; */
+    /* min-width: 400px; */
+    /* box-sizing: border-box; */
+}
+
+.description_column #course_actual_description{
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: left;
+}
