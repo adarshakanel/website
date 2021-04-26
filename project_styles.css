@@ -2,7 +2,7 @@ body{
     width:100%;
     margin: 0;
     font-size: 1.1vw;
-    color: white;
+    color: rgb(182, 179, 179);
 }
 
 .flex_navigation_plane #project_button{
