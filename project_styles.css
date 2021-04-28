@@ -84,6 +84,29 @@ body .about_me_body{
     justify-content: space-evenly;
     text-align: left;
 }
-/* .project_row_column #project_description{
-    text-align: left;
+
+/* .project_row_column .inside_column{
+    display: flex;
+    
 } */
+
+
+.project_row_column #project_link_text{
+    margin: 2% 0 4% 0;
+    transition: .5s;
+}
+
+
+.project_row_column #project_link{
+    /* margin: 10%; */
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    border-color:white;
+    border: .05vw solid ;
+    border-radius: 20%;
+}
+
+#project_link_text:hover{
+    transform: scale(1.1);
+}
