@@ -91,22 +91,29 @@ body .about_me_body{
 } */
 
 
-.project_row_column #project_link_text{
-    margin: 2% 0 10% 0;
-    transition: .5s;
+.project_row_column .project_link_text{
+    margin: -4% 35% 10% 35%;
 }
 
-.project_row_column #project_link{
+.project_link_text .project_link{
+    text-decoration: none;
+}
+
+.project_link_text #project_padding{
     color: white;
     text-decoration: none;
-    padding: 2%;
+    padding: 6% 0% 6% 0%;
     border-color:white;
     border: .05vw solid ;
     border-radius: 20%;
+    transition: .5s;
+    min-width: 200px;
 }
 
-#project_link_text:hover{
+#project_padding:hover{
     transform: scale(1.1);
+    color: #18bfef;
+    border-color: #18bfef;
 }
 
 .project_row_column #project_no_link_text{
